@@ -11,4 +11,5 @@ API is hosted on: https://F115FDBB4FFD84E92B957B9E16EA5504.gr7.ap-southeast-1.ek
 user: test
 password: test
 
+## Architecture Diagram
 https://ibb.co/TYL36sw
