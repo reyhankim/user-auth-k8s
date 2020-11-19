@@ -1,4 +1,4 @@
-const config = require('config.json');
+const config = require('../config.json');
 const mongoose = require('mongoose');
 
 const connectionOptions = {
@@ -12,8 +12,8 @@ mongoose.connect(process.env.MONGODB_URI || config.connectionString, connectionO
 mongoose.Promise = global.Promise;
 
 module.exports = {
-  User: require('models/user.model'),
-  AuthToken: require('models/auth-token.model'),
+  User: require('../models/user.model'),
+  RefreshToken: require('../models/refreshToken.model'),
   isValidId
 };
 
