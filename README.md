@@ -11,4 +11,3 @@ API is hosted on: https://F115FDBB4FFD84E92B957B9E16EA5504.gr7.ap-southeast-1.ek
 user: test
 password: test
 
-https://lucid.app/lucidchart/invitations/accept/9a55b67e-4846-49e7-af20-0bd08bfee9e7
