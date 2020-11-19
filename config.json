@@ -1,0 +1,4 @@
+{
+  "connectionString": "<MongoDB host>",
+  "secret": "<Secret to verify JSON Tokens>"
+}
