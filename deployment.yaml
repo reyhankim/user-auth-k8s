@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-auth-k8s-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: nodejs
+    spec:
+      containers:
+        - name: user-auth-k8s
+          image: hikarukei/user-auth-k8s:latest
+          ports:
+            - containerPort: 3000

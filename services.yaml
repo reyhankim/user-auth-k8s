@@ -1,0 +1,8 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: mongo
+spec:
+  ports:
+    - name: mongodb
+      port: 27017
